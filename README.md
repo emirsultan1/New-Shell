@@ -7,9 +7,18 @@ Module: Operating Systems
 
 ## Files/Directories
 README.md: Information about our project
-shell.c: the full c program in one c file
+execute.c: all important functions reside there
+main.c: includes just the main function
+prompt.c: for printing prompt
+all the normal header files for above c files -->> prompt.h , main.h , execute.h
+
+
 
 *******************************************************
+
+NOTE -- To run and compile our custom shell you need to go to the terminal and write
+
+gcc -o customshell main.c prompt.c execute.c -lreadline
 
 ## An outline of our project
 
